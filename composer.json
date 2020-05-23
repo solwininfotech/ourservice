@@ -1,0 +1,22 @@
+{
+    "name": "solwin/ourservice",
+    "description": "Our Services extension for Magento 2 allows store owner to display essential services in your website with image, short description and read more link.",
+    "type": "magento2-module",
+    "version": "1.0.8",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Ourservice\\": ""
+        }
+    }
+}
